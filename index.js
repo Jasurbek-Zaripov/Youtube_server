@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 4000
 const app = express()
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://auth0-client.herokuapp.com/',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     preflightContinue: false,
     optionsSuccessStatus: 204,
